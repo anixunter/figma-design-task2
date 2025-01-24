@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700family=Zilla+Slab:wght@700&display=swap");
+
+.app-container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.parent:hover .icon {
+  animation: bounceRight 0.5s infinite alternate;
+}
+
+@keyframes bounceRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(10px);
+  }
+}
