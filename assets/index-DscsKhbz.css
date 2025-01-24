@@ -1,0 +1,1 @@
+@import"https://fonts.googleapis.com/css2?family=Outfit:wght@400;700family=Zilla+Slab:wght@700&display=swap";.app-container{max-width:1080px;margin:0 auto;padding:20px;background:#fff;border-radius:8px}.parent:hover .icon{animation:bounceRight .5s infinite alternate}@keyframes bounceRight{0%{transform:translate(0)}to{transform:translate(10px)}}
