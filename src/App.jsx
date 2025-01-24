@@ -277,7 +277,7 @@ const App = () => {
       <div style={{ display: "flex", gap: "24px" }}>
         {COURSES_DATA.map((course, index) => (
           <CourseCard
-            key={course.title} // Better key than index
+            key={course.title}
             {...course}
             activeIndex={activeIndex}
             prevIndex={prevIndex}
